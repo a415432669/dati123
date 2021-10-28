@@ -1,0 +1,104 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.page{
+	width: 7.5rem;
+	height: 100vh;
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	background: purple;
+}
+
+
+.startGame{
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gaming{
+	background: darkblue;
+	padding: 0.4rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.startGame .startBtn{
+	width: 4rem;
+	height: 1rem;
+	font-size: 0.4rem;
+	line-height: 1rem;
+	border: none;
+	background: deepskyblue;
+	border-radius: 0.3rem;
+	color: #fff;
+	box-shadow: 0 0px 20px #999;
+}
+.gaming .timu{
+	font-size: 0.5rem;
+	color: #fff;
+	margin: 1rem 0;
+}
+.gaming .main{
+	font-size: 0.4rem;
+	color: #fff;
+	margin: 1rem 0;
+	background: rgba(0,0,0,0.6);
+	padding: 0.4rem;
+	border-radius: 0.5rem;
+}
+.gaming .main .optionItem{
+	padding: 0.2rem;
+	border-radius: 0.3rem;
+	margin: 0.1rem 0;
+	
+}
+.endGame{
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.endGame h2{
+	font-size: 0.6rem;
+	margin: 1rem 0;
+	text-align: center;
+}
+.endGame h3{
+	font-size: 0.4rem;
+	color: #ccc;
+	margin: 1rem 0;
+	text-align: center;
+}
+.endGame .reStart{
+	width: 4rem;
+	height: 1rem;
+	font-size: 0.4rem;
+	line-height: 1rem;
+	border: none;
+	background: deepskyblue;
+	border-radius: 0.3rem;
+	color: #fff;
+	box-shadow: 0 0px 20px #999;
+	text-align: center;
+}
+.clock{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	line-height: 3rem;
+	background: url(../img/lg.lava-lamp-preloader.gif);
+	margin: 1rem auto;
+	color: #fff;
+	text-shadow: 0 0 10px #666;
+	font-size: 0.4rem;
+}
